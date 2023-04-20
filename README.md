@@ -43,7 +43,9 @@ A _techs_ foram escolhidas na comunidade do discord durante uma chamada e como c
 
 **🚀 Deploy:**
 
-- [Vercel](https://vercel.com/)
+Plataforma de deploy mudada conforme discussão na [issue-06](https://github.com/PyNorte/pynorte2023-site/issues/6).
+
+- [Github Pages](https://docs.github.com/en/pages)
 
 ## Contribuições 💻
 
