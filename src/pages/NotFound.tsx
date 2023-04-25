@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom'
-
 import logo from '../assets/logo.svg'
+import { AnchorCustom } from '../components/AnchorCustom'
 
 export function NotFound() {
   return (
@@ -11,12 +10,9 @@ export function NotFound() {
         Erro 404 - Essa página não foi encontrada
       </span>
 
-      <Link
-        to="/"
-        className="text-green-700 transition-all duration-150 hover:text-green-900 text-center text-sm md:text-lg mt-10"
-      >
+      <AnchorCustom variant="green" className="mt-10" href="/">
         Volte para o início 🐍
-      </Link>
+      </AnchorCustom>
     </main>
   )
 }
