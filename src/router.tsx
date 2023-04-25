@@ -7,7 +7,7 @@ import { NotFound } from './pages/NotFound'
 export function AppRouter() {
   return (
     <Routes>
-      <Route Component={Landing} path="/" />
+      <Route Component={Landing} path="/pynorte2023-site" />
       <Route Component={NotFound} path="*" />
     </Routes>
   )
