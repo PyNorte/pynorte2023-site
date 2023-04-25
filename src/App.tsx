@@ -1,5 +1,11 @@
-import { Maintenance } from './pages/Maintenance'
+import { BrowserRouter } from 'react-router-dom'
+
+import { AppRouter } from './router'
 
 export function App() {
-  return <Maintenance />
+  return (
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  )
 }
