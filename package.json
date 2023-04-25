@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .ts --fix",
+    "lint": "eslint --ext .ts,.tsx . --no-error-on-unmatched-pattern",
+    "lint:fix": "eslint --ext .ts,.tsx . --no-error-on-unmatched-pattern --fix",
+    "types:check": "tsc --noEmit --pretty",
     "prepare": "husky install"
   },
   "dependencies": {
