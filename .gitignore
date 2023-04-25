@@ -23,5 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+# Environments
+.env
+
 # Another packager managers
 yarn.lock
