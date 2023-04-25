@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import logo from '../assets/logo.svg'
 
 export function NotFound() {
@@ -9,12 +11,12 @@ export function NotFound() {
         Erro 404 - Essa página não foi encontrada
       </span>
 
-      <a
-        href="/"
+      <Link
+        to="/"
         className="text-green-700 transition-all duration-150 hover:text-green-900 text-center text-sm md:text-lg mt-10"
       >
         Volte para o início 🐍
-      </a>
+      </Link>
     </main>
   )
 }
