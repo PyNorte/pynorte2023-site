@@ -4,7 +4,7 @@ import { Routes } from 'react-router-dom'
 import { Landing } from './pages/Landing'
 import { NotFound } from './pages/NotFound'
 
-export function AppRouter() {
+export function Router() {
   return (
     <Routes>
       <Route Component={Landing} path="/pynorte2023-site" />
