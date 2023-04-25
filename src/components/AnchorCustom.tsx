@@ -5,12 +5,12 @@ interface ILinkProps extends AnchorHTMLAttributes<HTMLElement> {
   children: ReactNode
 }
 
-export const AnchorCustom = ({
+export function AnchorCustom({
   variant = 'gray',
   children,
   className,
   ...rest
-}: ILinkProps) => {
+}: ILinkProps) {
   return (
     <a
       className={`
