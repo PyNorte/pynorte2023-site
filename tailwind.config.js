@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         background: '#1A1A1A',
+        footer_background: '#282828',
       },
       backgroundImage: {
         'desktop-dark': 'url(/bg-dark-desktop.png)',
