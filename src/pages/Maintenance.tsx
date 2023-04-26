@@ -3,37 +3,37 @@ import comeHere from '../assets/come-here.svg'
 
 export function Maintenance() {
   return (
-    <main className="min-h-screen bg-background bg-mobile-presentation sm:bg-desktop-presentation bg-no-repeat bg-cover bg-center flex justify-center items-center py-6 px-10">
-      <div className="flex flex-col gap-6 items-center">
+    <main className="min-h-screen bg-background bg-mobile-presentation sm:bg-desktop-presentation bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center">
+      <section>
+        <img className="md:w-48 xl:w-[272px]" src={comeHere} alt="vem aí" />
         <img
-          className="w-28 sm:w-44 md:w-52 self-start"
-          src={comeHere}
-          alt="Vem aí"
+          className="mt-4 md:mt-8 md:w-[480px] xl:w-[678px]"
+          src={logo}
+          alt=""
         />
-        <img className="w-full md:w-[680px]" src={logo} alt="" />
+      </section>
 
-        <div className="text-white mt-8 font-bold text-lg sm:text-3xl lg:text-4xl w-full max-w-[660px] flex items-center justify-between bg-gradient-to-r from-[#2C2C2CB2] to-[#2C2C2CB2] rounded-full">
-          <span className="bg-gradient-to-r from-[#282828B2] to-[#2C2C2CB2] p-4 md:px-8 md:py-5 rounded-full text-center">
-            MANAUS
-          </span>
-          <span className="flex-1 text-center px-4 md:px-8">
-            OUTUBRO DE 2023
-          </span>
-        </div>
+      <div className="mt-4 text-white font-bold text-xl leading-none md:text-3xl md:mt-6 xl:mt-8 xl:text-[44px] flex bg-gradient-to-r from-[#282828B2] to-[#2C2C2CB2] rounded-full">
+        <span className="p-4 xl:px-8 xl:py-5 bg-gradient-to-r from-[#282828B2] to-[#2C2C2CB2] rounded-full">
+          MANAUS
+        </span>
 
-        <p className="md:mt-6 text-white text-lg text-center leading-relaxed">
-          Quer vir com a gente fazer a Python Norte acontecer?
-        </p>
-
-        <a
-          className="text-white font-bold text-xl md:text-2xl p-4 bg-rose-600 hover:bg-rose-700 transition-all rounded-full"
-          href="https://forms.gle/u3FoYoygUyZphb6K7"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Seja um voluntário
-        </a>
+        <span className="pl-5 pr-4 py-4 xl:pr-8 xl:py-5">OUTUBRO DE 2023</span>
       </div>
+
+      <p className="text-white text-xl font-medium mt-6 text-center mx-8 md:mt-8 xl:mt-12 xl:text-2xl">
+        Quer vir com a gente fazer a Python Norte acontecer?
+      </p>
+
+      <a
+        className="p-4 text-white text-xl font-bold mt-4 md:mt-5 xl:text-2xl xl:mt-7 bg-rose-600 hover:bg-rose-700 transition-all rounded-full"
+        href="https://forms.gle/u3FoYoygUyZphb6K7"
+        target="_blank"
+        rel="noreferrer"
+        title="Formulário de voluntários"
+      >
+        Seja um voluntário
+      </a>
     </main>
   )
 }
