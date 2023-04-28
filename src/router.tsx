@@ -7,8 +7,8 @@ import { Landing } from './pages/Landing'
 export function Router() {
   return (
     <Routes>
-      <Route Component={DefaultLayout} path="/">
-        <Route Component={Landing} path="/" />
+      <Route element={<DefaultLayout />} path="/">
+        <Route element={<Landing />} path="/" />
       </Route>
     </Routes>
   )
