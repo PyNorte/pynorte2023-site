@@ -1,7 +1,7 @@
 export function Landing() {
   return (
     <>
-      <div className="min-h-screen"></div>
+      <div className="h-80 bg-background"></div>
     </>
   )
 }

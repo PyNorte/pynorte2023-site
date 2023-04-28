@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pynorte.github.io/pynorte2023-site",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

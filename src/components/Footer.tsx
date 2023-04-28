@@ -1,11 +1,10 @@
 import { BsTwitter, BsInstagram, BsLinkedin, BsFacebook } from 'react-icons/bs'
 
 import logo from '../assets/logo.svg'
-import { AnchorCustom } from './AnchorCustom'
 
 export function Footer() {
   return (
-    <footer className="bg-footer_background w-full px-6 py-10 flex flex-col justify-between items-start gap-10 sm:px-12 md:px-24 lg:px-36 md:flex-row md:items-center">
+    <footer className="bg-zinc-800 w-full px-6 py-10 flex flex-col justify-between items-start gap-10 sm:px-12 md:px-24 lg:px-36 md:flex-row md:items-center">
       <div className="max-w-sm flex flex-col items-start gap-5">
         <img src={logo} alt="" className="max-h-16" />
 
@@ -16,41 +15,45 @@ export function Footer() {
         </p>
 
         <nav className="flex gap-5">
-          <AnchorCustom
+          <a
             href="https://twitter.com/pynorte"
             title="Acessar nossa página no Twitter"
-            variant="white"
+            className="text-md transition-all duration-150 text-white  hover:text-green-500"
             target="_blank"
+            rel="noreferrer"
           >
             <BsTwitter className="text-xl" />
-          </AnchorCustom>
+          </a>
 
-          <AnchorCustom
+          <a
             href="https://www.instagram.com/pynorteoficial/"
             title="Acessar nossa página no Instagram"
-            variant="white"
+            className="text-md transition-all duration-150 text-white  hover:text-green-500"
             target="_blank"
+            rel="noreferrer"
           >
             <BsInstagram className="text-xl" />
-          </AnchorCustom>
+          </a>
 
-          <AnchorCustom
+          <a
             href="https://www.linkedin.com/company/pynorte/"
             title="Acessar nossa página no LinkedIn"
-            variant="white"
+            className="text-md transition-all duration-150 text-white  hover:text-green-500"
             target="_blank"
+            rel="noreferrer"
           >
             <BsLinkedin className="text-xl" />
-          </AnchorCustom>
+          </a>
 
-          <AnchorCustom
+          <a
             href="https://www.facebook.com/pynorte"
             title="Acessar nossa página no Facebook"
-            variant="white"
+            className="text-md transition-all duration-150 text-white  hover:text-green-500"
             target="_blank"
+            rel="noreferrer"
           >
             <BsFacebook className="text-xl" />
-          </AnchorCustom>
+          </a>
         </nav>
       </div>
 
@@ -58,18 +61,30 @@ export function Footer() {
         <h2 className="text-white text-xl font-bold">Link Rápidos</h2>
 
         <nav className="flex flex-col gap-2">
-          <AnchorCustom variant="gray" href="#about">
+          <a
+            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            href="#about"
+          >
             About us
-          </AnchorCustom>
-          <AnchorCustom variant="gray" href="#questions">
+          </a>
+          <a
+            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            href="#questions"
+          >
             Questions
-          </AnchorCustom>
-          <AnchorCustom variant="gray" href="#contact-us">
+          </a>
+          <a
+            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            href="#questions"
+          >
             Contact us
-          </AnchorCustom>
-          <AnchorCustom variant="gray" href="#legal">
+          </a>
+          <a
+            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            href="#questions"
+          >
             Legal
-          </AnchorCustom>
+          </a>
         </nav>
       </div>
     </footer>

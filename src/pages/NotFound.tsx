@@ -1,18 +1,22 @@
+import { Link } from 'react-router-dom'
+
 import logo from '../assets/logo.svg'
-import { AnchorCustom } from '../components/AnchorCustom'
 
 export function NotFound() {
   return (
     <main className="min-h-screen bg-background bg-desktop-dark bg-no-repeat bg-cover flex flex-col justify-center items-center py-6 px-11">
-      <img className="w-full md:w-[20rem]" src={logo} alt="" />
+      <img className="w-full md:w-80" src={logo} alt="" />
 
       <span className="text-white text-center text-sm md:text-lg mt-5">
-        Erro 404 - Essa página não foi encontrada
+        O conteúdo que você tentou acessar não foi encontrado
       </span>
 
-      <AnchorCustom variant="green" className="mt-10" href="/">
+      <Link
+        className="text-md transition-all duration-150 text-white  hover:text-green-500"
+        to="/"
+      >
         Volte para o início 🐍
-      </AnchorCustom>
+      </Link>
     </main>
   )
 }
