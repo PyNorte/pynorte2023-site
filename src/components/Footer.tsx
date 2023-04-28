@@ -1,4 +1,4 @@
-import { BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { BsTwitter, BsInstagram, BsLinkedin, BsFacebook } from 'react-icons/bs'
 
 import logo from '../assets/logo.svg'
 import { AnchorCustom } from './AnchorCustom'
@@ -17,27 +17,39 @@ export function Footer() {
 
         <nav className="flex gap-5">
           <AnchorCustom
-            href="#"
+            href="https://twitter.com/pynorte"
             title="Acessar nossa página no Twitter"
             variant="white"
+            target="_blank"
           >
             <BsTwitter className="text-xl" />
           </AnchorCustom>
 
           <AnchorCustom
-            href="#"
+            href="https://www.instagram.com/pynorteoficial/"
             title="Acessar nossa página no Instagram"
             variant="white"
+            target="_blank"
           >
             <BsInstagram className="text-xl" />
           </AnchorCustom>
 
           <AnchorCustom
-            href="#"
+            href="https://www.linkedin.com/company/pynorte/"
             title="Acessar nossa página no LinkedIn"
             variant="white"
+            target="_blank"
           >
             <BsLinkedin className="text-xl" />
+          </AnchorCustom>
+
+          <AnchorCustom
+            href="https://www.facebook.com/pynorte"
+            title="Acessar nossa página no Facebook"
+            variant="white"
+            target="_blank"
+          >
+            <BsFacebook className="text-xl" />
           </AnchorCustom>
         </nav>
       </div>
