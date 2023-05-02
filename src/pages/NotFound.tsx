@@ -12,10 +12,10 @@ export function NotFound() {
       </span>
 
       <Link
-        className="text-md transition-all duration-150 text-white  hover:text-green-500"
+        className="text-md transition-all duration-150 text-white  hover:text-green-500 mt-6"
         to="/"
       >
-        Volte para o início 🐍
+        Voltar para o início 🐍
       </Link>
     </main>
   )

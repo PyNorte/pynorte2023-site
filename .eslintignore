@@ -1,0 +1,9 @@
+# Build folder
+dist
+
+# Dependencies
+node_modules
+
+# Tailwind config
+tailwind.config.js
+postcss.config.js
