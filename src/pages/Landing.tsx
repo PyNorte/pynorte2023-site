@@ -4,7 +4,7 @@ export function Landing() {
   return (
     <div className="bg-background min-h-screen">
       <div>
-        <img src={logo} alt="" />
+        <img src={logo} alt="Logo" />
 
         <div className="text-white">
           <h1>15 e 16 de Outubro de 2023</h1>
