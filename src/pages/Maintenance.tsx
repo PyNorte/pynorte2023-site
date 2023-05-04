@@ -34,6 +34,23 @@ export function Maintenance() {
       >
         Seja um voluntário
       </a>
+      <div className="flex gap-4 m-4">
+        <a href="https://www.linkedin.com/company/pynorte/">
+          <img src="./linkedin.svg" alt="link linkedin" />
+        </a>
+        <a href="https://www.instagram.com/pynorteoficial/">
+          <img src="./instagram.svg" alt="link instagram" />
+        </a>
+        <a href="https://twitter.com/pynorte">
+          <img src="./twitter.svg" alt="link twitter" />
+        </a>
+        <a href="https://linktr.ee/pythonnorte">
+          <img src="./link.svg" alt="link  Site PyNorte" />
+        </a>
+        <a href="#">
+          <img src="./local.svg" alt="Local do evento" />
+        </a>
+      </div>
     </main>
   )
 }
