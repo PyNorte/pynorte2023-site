@@ -29,7 +29,7 @@ export function Maintenance() {
         className="p-4 text-white text-xl font-bold mt-4 md:mt-5 xl:text-2xl xl:mt-7 bg-rose-600 hover:bg-rose-700 transition-all rounded-full"
         href="https://forms.gle/u3FoYoygUyZphb6K7"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="Formulário de voluntários"
       >
         Seja um voluntário
