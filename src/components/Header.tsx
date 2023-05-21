@@ -10,7 +10,7 @@ export function Header() {
     <header className="lg:bg-black bg-black p-8">
       {/* set bg transparent in mobile */}
       <section 
-      className={`${menuIsOn ? 'block' : 'hidden'} my-28 bg-transparent top-0 left-0 absolute h-screen w-screen`}>
+      className={`${menuIsOn ? 'translate-y-0' : '-translate-y-96'} lg:hidden top-0 my-28 bg-transparent left-0 absolute h-screen w-screen duration-300`}>
         <div className='bg-zinc-900 top-0 h-min w-screen text-white '>
           <ul className=''>
             <li className="py-2 "><a href="#" className="ml-4">Home</a></li>
