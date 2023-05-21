@@ -2,6 +2,8 @@ import { FiMenu } from 'react-icons/fi'
 import { TfiClose } from 'react-icons/tfi'
 import logo from '../assets/logo.svg'
 import { useState } from 'react'
+import { useReadingScroll } from '../hooks/useReadingScroll.js'
+
 
 export function Header() {
   const [ menuIsOn, setMenuIsOn ] = useState(false)
