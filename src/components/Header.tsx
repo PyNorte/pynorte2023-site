@@ -2,11 +2,17 @@ import { FiMenu } from 'react-icons/fi'
 import { TfiClose } from 'react-icons/tfi'
 import logo from '../assets/logo.svg'
 import { useState } from 'react'
-import { useReadingScroll } from '../hooks/useReadingScroll.js'
-
 
 export function Header() {
   const [ menuIsOn, setMenuIsOn ] = useState(false)
+  const [ scroll, setScroll ] = useState(0)
+
+  function updateScroll() {
+    let scroll: number = window.scrollY
+    setScroll(scroll)
+  }
+
+  window.addEventListener('scroll', updateScroll)
 
   return (
     <div>
@@ -23,7 +29,7 @@ export function Header() {
           </div>
         <div className='min-h-full w-full' onClick={() => setMenuIsOn(!menuIsOn)}></div>
       </section>
-      <header className="lg:bg-black bg-black p-8 relative">
+      <header className={`${scroll > 0 ? 'bg-transparent' : ''} duration-300 lg:bg-black bg-black p-8 fixed w-full`}>
         <div className="flex justify-between items-center">
             <img src={logo} alt="Python Norte 2023 Logo" className="max-h-16 lg:mr-52 xl:mr-72 2xl:mr-96"/>
             <nav className="text-white w-full hidden lg:flex font-normal text-base">
