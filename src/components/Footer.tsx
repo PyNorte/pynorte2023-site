@@ -4,11 +4,11 @@ import logo from '../assets/logo.svg'
 
 export function Footer() {
   return (
-    <footer className="bg-zinc-800 w-full px-6 py-10 flex flex-col justify-between items-start gap-10 sm:px-12 md:px-24 lg:px-36 md:flex-row md:items-center">
-      <div className="max-w-sm flex flex-col items-start gap-5">
+    <footer className="flex w-full flex-col items-start justify-between gap-10 bg-zinc-800 px-6 py-10 sm:px-12 md:flex-row md:items-center md:px-24 lg:px-36">
+      <div className="flex max-w-sm flex-col items-start gap-5">
         <img src={logo} alt="" className="max-h-16" />
 
-        <p className="text-gray-400 text-base">
+        <p className="text-base text-gray-400">
           Python Brasil é uma conferência sem fins lucrativos dirigida por
           voluntários para promover a linguagem de programação Python de código
           aberto. É apoiado pela Associação Python Brasil (APyB).
@@ -18,7 +18,7 @@ export function Footer() {
           <a
             href="https://twitter.com/pynorte"
             title="Acessar nossa página no Twitter"
-            className="text-md transition-all duration-150 text-white  hover:text-green-500"
+            className="text-md text-white transition-all duration-150  hover:text-green-500"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,7 +28,7 @@ export function Footer() {
           <a
             href="https://www.instagram.com/pynorteoficial/"
             title="Acessar nossa página no Instagram"
-            className="text-md transition-all duration-150 text-white  hover:text-green-500"
+            className="text-md text-white transition-all duration-150  hover:text-green-500"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,7 +38,7 @@ export function Footer() {
           <a
             href="https://www.linkedin.com/company/pynorte/"
             title="Acessar nossa página no LinkedIn"
-            className="text-md transition-all duration-150 text-white  hover:text-green-500"
+            className="text-md text-white transition-all duration-150  hover:text-green-500"
             target="_blank"
             rel="noreferrer"
           >
@@ -48,7 +48,7 @@ export function Footer() {
           <a
             href="https://www.facebook.com/pynorte"
             title="Acessar nossa página no Facebook"
-            className="text-md transition-all duration-150 text-white  hover:text-green-500"
+            className="text-md text-white transition-all duration-150  hover:text-green-500"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,30 +57,30 @@ export function Footer() {
         </nav>
       </div>
 
-      <div className="flex flex-col items-start gap-5 mb-10">
-        <h2 className="text-white text-xl font-bold">Link Rápidos</h2>
+      <div className="mb-10 flex flex-col items-start gap-5">
+        <h2 className="text-xl font-bold text-white">Link Rápidos</h2>
 
         <nav className="flex flex-col gap-2">
           <a
-            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            className="text-md text-gray-400 transition-all duration-150 hover:text-green-500"
             href="#about"
           >
             About us
           </a>
           <a
-            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            className="text-md text-gray-400 transition-all duration-150 hover:text-green-500"
             href="#questions"
           >
             Questions
           </a>
           <a
-            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            className="text-md text-gray-400 transition-all duration-150 hover:text-green-500"
             href="#questions"
           >
             Contact us
           </a>
           <a
-            className="text-md transition-all duration-150 text-gray-400 hover:text-green-500"
+            className="text-md text-gray-400 transition-all duration-150 hover:text-green-500"
             href="#questions"
           >
             Legal

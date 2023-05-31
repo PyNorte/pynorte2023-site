@@ -8,15 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
-      },
-      colors: {
-        background: '#1A1A1A',
-      },
-      backgroundImage: {
-        'desktop-dark': 'url(/bg-dark-desktop.png)',
-        'desktop-presentation': 'url(/bg-presentation-desktop.png)',
-        'mobile-presentation': 'url(/bg-presentation-mobile.png)',
-      },
+      }
     },
   },
   plugins: [],
