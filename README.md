@@ -74,4 +74,4 @@ Para contribuir com código sempre fique atento ao backlog de atividades para ve
 
 ## Licença 📃
 
-Ainda não temos uma licença, mas assim que for decidida será adicionada nesse README 🫡
+Esse projeto está sob a licença [CC BY-NC-SA](./LICENSE.md) 🫡
