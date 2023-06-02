@@ -2,7 +2,7 @@ import comeHereImg from '../assets/come-here.svg'
 
 export function Landing() {
   return (
-    <div className="p-8 md:px-28 md:py-16 lg:px-40">
+    <div>
       <div className="flex max-w-xl flex-col items-start gap-4">
         <img
           className="h-9"
