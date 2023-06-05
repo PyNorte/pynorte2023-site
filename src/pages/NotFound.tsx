@@ -1,22 +1,35 @@
 import { Link } from 'react-router-dom'
 
 import logo from '../assets/logo.svg'
+import notFoundImg from '../assets/not-found.png'
 
 export function NotFound() {
   return (
-    <main className="min-h-screen bg-background bg-desktop-dark bg-no-repeat bg-cover flex flex-col justify-center items-center py-6 px-11">
-      <img className="w-full md:w-80" src={logo} alt="" />
+    <div className="flex min-h-screen flex-col p-8">
+      <header>
+        <Link className="block w-fit" to="/">
+          <img className="h-14" src={logo} alt="" />
+        </Link>
+      </header>
 
-      <span className="text-white text-center text-sm md:text-lg mt-5">
-        O conteúdo que você tentou acessar não foi encontrado
-      </span>
+      <main className="flex flex-1 flex-col items-center justify-center gap-12">
+        <p className="text-center text-lg font-bold md:text-4xl">
+          Ops! Página não encontrada.
+        </p>
 
-      <Link
-        className="text-md transition-all duration-150 text-white  hover:text-green-500"
-        to="/"
-      >
-        Volte para o início 🐍
-      </Link>
-    </main>
+        <img
+          className="w-96 md:w-[426px] lg:w-[680px]"
+          src={notFoundImg}
+          alt="Recurso não encontrado"
+        />
+
+        <Link
+          className="rounded-full bg-green-600 px-6 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-8 md:py-4 md:text-base"
+          to="/"
+        >
+          Voltar para o início
+        </Link>
+      </main>
+    </div>
   )
 }
