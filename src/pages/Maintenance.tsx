@@ -26,7 +26,7 @@ export function Maintenance() {
           MANAUS
         </span>
 
-        <span className="pl-5 pr-4 py-4 xl:pr-8 xl:py-5">OUTUBRO DE 2023</span>
+        <span className="pl-5 pr-4 py-4 xl:pr-8 xl:py-5">SETEMBRO DE 2023</span>
       </div>
 
       <p className="text-white text-xl font-medium mt-6 text-center mx-8 xl:text-2xl">
