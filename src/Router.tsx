@@ -1,5 +1,4 @@
-import { Route } from 'react-router'
-import { Routes } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import { DefaultLayout } from './layouts/DefaultLayout'
 import { Landing } from './pages/Landing'
