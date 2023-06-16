@@ -3,7 +3,9 @@ import { Router } from './Router'
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+      basename={import.meta.env.DEV ? '/' : 'https://2023.pythonnorte.org/'}
+    >
       <Router />
     </BrowserRouter>
   )
