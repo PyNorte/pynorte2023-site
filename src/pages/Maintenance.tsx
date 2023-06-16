@@ -6,16 +6,20 @@ import {
 } from 'react-icons/gr'
 import { MdOutlineInsertLink } from 'react-icons/md'
 
-import brand from '../assets/brand.svg'
-import comeHere from '../assets/come-here.svg'
+import brand from '../assets/brand-dark.svg'
+import comeHere from '../assets/come-here-dark.svg'
 
 export function Maintenance() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-[url(../assets/bg-mobile-maintenance.png)] bg-cover bg-center bg-no-repeat sm:bg-[url(../assets/bg-desktop-maintenance.png)]">
       <section>
-        <img className="md:w-48 xl:w-[252px]" src={comeHere} alt="vem aí" />
         <img
-          className="mt-4 w-[300px] md:mt-8 md:w-[480px] xl:w-[590px]"
+          className="w-[132px] md:w-48 xl:w-[252px]"
+          src={comeHere}
+          alt="vem aí"
+        />
+        <img
+          className="mt-4 w-[300px] md:mt-6 md:w-[480px] xl:w-[590px]"
           src={brand}
           alt=""
         />
