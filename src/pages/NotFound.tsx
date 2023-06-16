@@ -5,7 +5,7 @@ import notFoundImg from '../assets/not-found.png'
 
 export function NotFound() {
   return (
-    <div className="flex min-h-screen flex-col p-8">
+    <div className="flex min-h-screen flex-col bg-zinc-900 bg-[url(../assets/bg-mobile.png)] bg-cover object-top p-8 text-white sm:bg-[url(../assets/bg-desktop.png)]">
       <header>
         <Link className="block w-fit" to="/">
           <img className="h-14" src={logo} alt="" />

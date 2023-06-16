@@ -10,7 +10,7 @@ export function Landing() {
           alt="Logo descrevendo a palavra vem aí anunciando a proximidade do evento"
         />
 
-        <h1 className="text-5xl font-bold">15 e 16 de Outubro</h1>
+        <h1 className="text-5xl font-bold">29 e 30 de Setembro de 2023</h1>
 
         <span className="text-2xl text-red-500">#PythonNorte2023</span>
 
