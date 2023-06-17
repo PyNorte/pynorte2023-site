@@ -37,15 +37,27 @@ export function Maintenance() {
         Quer vir com a gente fazer a Python Norte acontecer?
       </p>
 
-      <a
-        className="mt-4 rounded-full bg-rose-600 p-4 text-xl font-bold text-white transition-all hover:bg-rose-700 md:mt-5 xl:text-2xl"
-        href="https://forms.gle/u3FoYoygUyZphb6K7"
-        target="_blank"
-        rel="noreferrer"
-        title="Formulário de voluntários"
-      >
-        Seja um voluntário
-      </a>
+      <section className="mt-10  gap-2 flex flex-col md:flex-row">
+        <a
+          className="mt-4 rounded-full bg-rose-600 p-4 text-xl font-bold text-white transition-all hover:bg-rose-700 md:mt-5 xl:text-2xl"
+          href="https://forms.gle/u3FoYoygUyZphb6K7"
+          target="_blank"
+          rel="noreferrer"
+          title="Formulário de voluntários"
+        >
+          Seja um voluntário
+        </a>
+
+        <a
+          className="mt-4 rounded-full bg-rose-600 p-4 text-xl font-bold text-white transition-all hover:bg-rose-700 md:mt-5 xl:text-2xl"
+          href="https://drive.google.com/file/d/1c8QqrEY1hSABqX8F8ZeJtvWBxAzgZpI8/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          title="Seja um patrocinador"
+        >
+          Seja um patrocinador
+        </a>
+      </section>
 
       <section className="mt-10 flex gap-4 md:mt-8">
         <a
