@@ -1,31 +1,40 @@
+import { Countdown } from '../components/Countdown'
+
 import comeHereImg from '../assets/come-here.svg'
 
 export function Landing() {
   return (
     <div>
-      <div className="flex max-w-xl flex-col items-start gap-4">
-        <img
-          className="h-9"
-          src={comeHereImg}
-          alt="Logo descrevendo a palavra vem aí anunciando a proximidade do evento"
-        />
+      <div className="flex items-center justify-between gap-8">
+        <div className="flex flex-col items-start gap-4">
+          <img
+            className="h-9"
+            src={comeHereImg}
+            alt="Logo descrevendo a palavra vem aí anunciando a proximidade do evento"
+          />
 
-        <h1 className="text-5xl font-bold">29 e 30 de Setembro de 2023</h1>
+          <h1 className="text-5xl font-bold">29 e 30 de Setembro de 2023</h1>
 
-        <span className="text-2xl text-red-500">#PythonNorte2023</span>
+          <span className="text-2xl text-red-500">#PythonNorte2023</span>
 
-        <p className="max-w-lg text-base leading-relaxed">
-          A PyNorte 2023 nasceu com a tarefa de promover o máximo de diversidade
-          e inclusão durante os 02 dias/Outubro do evento. Inscreva-se, para
-          participar desse momento sobre tecnologia e pessoas.
-        </p>
+          <p className="max-w-lg text-base leading-relaxed">
+            A PyNorte 2023 nasceu com a tarefa de promover o máximo de
+            diversidade e inclusão durante os 02 dias/Outubro do evento.
+            Inscreva-se, para participar desse momento sobre tecnologia e
+            pessoas.
+          </p>
 
-        <a
-          className="rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-12 md:py-4 md:text-base"
-          href="#"
-        >
-          Inscreva-se
-        </a>
+          <a
+            className="rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-12 md:py-4 md:text-base"
+            href="#"
+          >
+            Inscreva-se
+          </a>
+        </div>
+
+        <div className="mb-16 hidden lg:block">
+          <Countdown />
+        </div>
       </div>
 
       <div className="mt-32">

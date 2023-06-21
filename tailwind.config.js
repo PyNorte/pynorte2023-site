@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
+        mono: ['Share Tech Mono', 'monospace'],
       },
       colors: {
         green: {
