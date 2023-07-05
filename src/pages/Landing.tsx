@@ -1,6 +1,12 @@
-import { Countdown } from '../components/Countdown'
+import comeHereImg from "../assets/come-here.svg";
 
-import comeHereImg from '../assets/come-here.svg'
+import { Countdown } from "../components/Countdown";
+
+import { Programacao } from "../components/Programacao";
+import { Patrocinadores } from "../components/Patrocinadores";
+import { LocalEvento } from "../components/LocalEvento";
+import { FAQ } from "../components/FAQ";
+import { Contatos } from "../components/Contatos";
 
 export function Landing() {
   return (
@@ -32,6 +38,7 @@ export function Landing() {
           </a>
         </div>
 
+        {/* Countdown */}
         <div className="mb-16 hidden lg:block">
           <Countdown />
         </div>
@@ -52,6 +59,31 @@ export function Landing() {
           diversidade, respeito e inclusão.
         </p>
       </div>
+
+      {/* Programação */}
+      <div className="mt-32">
+        <Programacao />
+      </div>
+
+      {/* Patrocinadores */}
+      <div className="mt-32">
+        <Patrocinadores />
+      </div>
+
+      {/* Local */}
+      <div className="mt-32">
+        <LocalEvento />
+      </div>
+
+      {/* FAQ */}
+      <div className="mt-32" id="faq">
+        <FAQ />
+      </div>
+
+      {/* Contatos */}
+      <div className="my-32">
+        <Contatos />
+      </div>
     </div>
-  )
+  );
 }
