@@ -1,9 +1,8 @@
-import { GrTwitter, GrInstagram } from "react-icons/gr";
+import { GrTwitter, GrInstagram } from 'react-icons/gr'
 
 export function Contatos() {
-
   return (
-    <div className="p-16 max-w-2xl md:max-w-2xl lg:max-w-2xl xl:max-w-2xl mx-auto shadow-xl rounded-3xl bg-custom-gray overflow-hidden">
+    <div className="mx-auto max-w-2xl overflow-hidden rounded-3xl bg-custom-gray p-16 shadow-xl md:max-w-2xl lg:max-w-2xl xl:max-w-2xl">
       {/* Top */}
       <div className="flex flex-col items-center justify-center">
         <h3 className="mb-6 text-3xl font-bold text-white">Nossos Contatos</h3>
@@ -30,7 +29,7 @@ export function Contatos() {
 
       {/* Bottom */}
       <div className="mt-16 flex flex-col items-center justify-center text-white">
-        <p className="text-center text-lg font-semibold text-gray-300 leading-loose uppercase">
+        <p className="text-center text-lg font-semibold uppercase leading-loose text-gray-300">
           EMAIL
         </p>
         <a href="mailto:contato@pynorte.com">
@@ -40,5 +39,5 @@ export function Contatos() {
         </a>
       </div>
     </div>
-  );
+  )
 }

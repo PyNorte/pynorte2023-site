@@ -1,26 +1,26 @@
-import React, { useState } from "react";
-import { clsx } from "clsx";
-import { useScrollPosition } from "../hooks/useScrollPosition";
-import { useMediaQuery } from "react-responsive";
-import { Disclosure } from "@headlessui/react";
-import { BiMenu } from "react-icons/bi";
-import { CgClose } from "react-icons/cg";
-import brandImg from "../assets/brand.svg";
+import React, { useState } from 'react'
+import { clsx } from 'clsx'
+import { useScrollPosition } from '../hooks/useScrollPosition'
+import { useMediaQuery } from 'react-responsive'
+import { Disclosure } from '@headlessui/react'
+import { BiMenu } from 'react-icons/bi'
+import { CgClose } from 'react-icons/cg'
+import brandImg from '../assets/brand.svg'
 
 export function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const scrollPosition = useScrollPosition();
-  const isMobile = useMediaQuery({ maxWidth: 640 });
+  const [isOpen, setIsOpen] = useState(false)
+  const scrollPosition = useScrollPosition()
+  const isMobile = useMediaQuery({ maxWidth: 640 })
 
   return (
     <Disclosure
       as="header"
       className={clsx(
-        "sticky top-0 z-50 flex flex-col items-center justify-between px-8 py-4 sm:flex-row sm:bg-zinc-900/40 sm:backdrop-blur-sm md:px-28 lg:px-40",
+        'sticky top-0 z-50 flex flex-col items-center justify-between px-8 py-4 sm:flex-row sm:bg-zinc-900/40 sm:backdrop-blur-sm md:px-28 lg:px-40',
         {
-          "bg-zinc-900/30 backdrop-blur-sm transition-all":
+          'bg-zinc-900/30 backdrop-blur-sm transition-all':
             scrollPosition >= 20,
-        }
+        },
       )}
     >
       <div className="flex w-full items-center justify-between">
@@ -36,7 +36,7 @@ export function Header() {
             className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           >
             <span className="sr-only">
-              {isOpen ? "Close main menu" : "Open main menu"}
+              {isOpen ? 'Close main menu' : 'Open main menu'}
             </span>
             {isOpen ? (
               <CgClose className="block h-6 w-6" aria-hidden="true" />
@@ -99,5 +99,5 @@ export function Header() {
         </Disclosure.Panel>
       )}
     </Disclosure>
-  );
+  )
 }

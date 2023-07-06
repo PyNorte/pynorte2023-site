@@ -1,31 +1,31 @@
-//Troque o nome pelo nome da imagem que você quer usar
-import thumbnail1 from "../assets/programacao/thumbnail-programacao1.png";
-import thumbnail2 from "../assets/programacao/thumbnail-programacao2.png";
-import thumbnail3 from "../assets/programacao/thumbnail-programacao3.png";
-import thumbnail4 from "../assets/programacao/thumbnail-programacao4.png";
+// Troque o nome pelo nome da imagem que você quer usar
+import thumbnail1 from '../assets/programacao/thumbnail-programacao1.png'
+import thumbnail2 from '../assets/programacao/thumbnail-programacao2.png'
+import thumbnail3 from '../assets/programacao/thumbnail-programacao3.png'
+import thumbnail4 from '../assets/programacao/thumbnail-programacao4.png'
 
 export function Programacao() {
-  //Altere as informações abaixo
+  // Altere as informações abaixo
   const infos = [
     {
-      alt: "Descrição da imagem 1",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
+      alt: 'Descrição da imagem 1',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.',
     },
     {
-      alt: "Descrição da imagem 2",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
+      alt: 'Descrição da imagem 2',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.',
     },
     {
-      alt: "Descrição da imagem 3",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
+      alt: 'Descrição da imagem 3',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.',
     },
     {
-      alt: "Descrição da imagem 4",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
+      alt: 'Descrição da imagem 4',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.',
     },
-  ];
+  ]
 
-  const thumbnails = [thumbnail1, thumbnail2, thumbnail3, thumbnail4];
+  const thumbnails = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
 
   return (
     <>
@@ -48,5 +48,5 @@ export function Programacao() {
         </a>
       </div>
     </>
-  );
+  )
 }

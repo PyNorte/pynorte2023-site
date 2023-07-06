@@ -1,12 +1,12 @@
-import comeHereImg from "../assets/come-here.svg";
+import comeHereImg from '../assets/come-here.svg'
 
-import { Countdown } from "../components/Countdown";
+import { Countdown } from '../components/Countdown'
 
-import { Programacao } from "../components/Programacao";
-import { Patrocinadores } from "../components/Patrocinadores";
-import { LocalEvento } from "../components/LocalEvento";
-import { FAQ } from "../components/FAQ";
-import { Contatos } from "../components/Contatos";
+import { Programacao } from '../components/Programacao'
+import { Patrocinadores } from '../components/Patrocinadores'
+import { LocalEvento } from '../components/LocalEvento'
+import { FAQ } from '../components/FAQ'
+import { Contatos } from '../components/Contatos'
 
 export function Landing() {
   return (
@@ -85,5 +85,5 @@ export function Landing() {
         <Contatos />
       </div>
     </div>
-  );
+  )
 }

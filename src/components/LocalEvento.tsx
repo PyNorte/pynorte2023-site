@@ -1,12 +1,12 @@
-import local from "../assets/local-evento.png";
+import local from '../assets/local-evento.png'
 
 export function LocalEvento() {
   const info = [
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.",
-      mobile: "O evento ocorrerá no espaço X, dia X, em X horario",
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
+      mobile: 'O evento ocorrerá no espaço X, dia X, em X horario',
     },
-  ];
+  ]
 
   return (
     <>
@@ -40,5 +40,5 @@ export function LocalEvento() {
         </a>
       </div>
     </>
-  );
+  )
 }
