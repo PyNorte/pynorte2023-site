@@ -32,9 +32,9 @@ export function Contatos() {
         <p className="text-center text-lg font-semibold uppercase leading-loose text-gray-300">
           EMAIL
         </p>
-        <a href="mailto:contato@pynorte.com">
+        <a href="mailto:pynorteam@gmail.com">
           <p className="text-center text-2xl font-bold leading-loose text-green-600 underline">
-            contato@pynorte.com
+            pynorteam@gmail.com
           </p>
         </a>
       </div>
