@@ -1,6 +1,6 @@
-import { GrTwitter, GrInstagram } from 'react-icons/gr'
+import { GrTwitter, GrInstagram } from "react-icons/gr";
 
-import brandImg from '../assets/brand.svg'
+import brandImg from "../assets/brand.svg";
 
 export function Footer() {
   return (
@@ -41,30 +41,33 @@ export function Footer() {
         <ul className="space-y-2">
           <li>
             <a
+              target="_blank"
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
               href="#"
             >
-              Link 1
+              Inscreva-se
             </a>
           </li>
           <li>
             <a
+              target="_blank"
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
-              href="#"
+              href="https://drive.google.com/file/d/12OvS9k6Lkc77ZiWDiCjgJ9lO_LOCNtb-/view?usp=sharing"
             >
-              Link 2
+              Seja um Patrocinador
             </a>
           </li>
           <li>
             <a
+              target="_blank"
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
-              href="#"
+              href="https://goo.gl/maps/QauwFqoaa1qmuNKg8"
             >
-              Link 3
+              Local do Evento
             </a>
           </li>
         </ul>
       </div>
     </footer>
-  )
+  );
 }

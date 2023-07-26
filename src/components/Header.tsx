@@ -48,22 +48,17 @@ export function Header() {
           <nav>
             <ul className="flex space-x-8 text-white md:space-x-16 lg:space-x-24">
               <li>
-                <a href="#" className="hover:text-gray-300">
+                <a href="/preview" className="hover:text-gray-300">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300">
+                <a href="/cdc" className="hover:text-gray-300">
                   Código de Conduta
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300">
-                  Keynotes
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:text-gray-300">
+                <a href="/preview#faq" className="hover:text-gray-300">
                   FAQ
                 </a>
               </li>
@@ -76,18 +71,13 @@ export function Header() {
         <Disclosure.Panel className="mt-8 w-full sm:hidden">
           <ul className="flex flex-col space-y-4 text-white">
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/preview" className="hover:text-gray-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/cdc" className="hover:text-gray-300">
                 Código de Conduta
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                Keynotes
               </a>
             </li>
             <li>
