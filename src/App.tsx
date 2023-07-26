@@ -1,10 +1,11 @@
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { Router } from './Router'
 
 export function App() {
   return (
-    <HashRouter>
+    //Usando o BrowserRouter para gerenciar as rotas com "/"
+    <BrowserRouter>
       <Router />
-    </HashRouter>
+    </BrowserRouter>
   )
 }

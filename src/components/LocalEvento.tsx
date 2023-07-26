@@ -1,12 +1,13 @@
-import local from '../assets/local-evento.png'
+import local from "../assets/local-envento.jpg";
 
 export function LocalEvento() {
   const info = [
     {
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
-      mobile: 'O evento ocorrerá no espaço X, dia X, em X horario',
+      text: "UNINORTE - Unidade Djalma Batista. Endereço: Av. Djalma Batista, 2056 - Parque Dez de Novembro, Manaus - AM, 69050-010",
+      mobile:
+        "UNINORTE - Unidade Djalma Batista. Endereço: Av. Djalma Batista, 2056 - Parque Dez de Novembro, Manaus - AM, 69050-010",
     },
-  ]
+  ];
 
   return (
     <>
@@ -24,7 +25,7 @@ export function LocalEvento() {
           <img
             src={local}
             alt="local do evento"
-            className="mx-auto h-64 w-64"
+            className="mx-auto h-64 w-64 rounded"
           />
         </div>
         <p className="text-center text-lg leading-loose">{info[0].mobile}</p>
@@ -33,12 +34,14 @@ export function LocalEvento() {
       {/* Button */}
       <div className="mt-12 text-center">
         <a
+          target="_blank"
+          rel="noreferrer"
           className="text-md inline-block w-full rounded-full bg-green-600 px-28 py-4 font-bold text-zinc-800 transition-colors hover:bg-green-500 md:inline-block md:w-auto"
-          href="#"
+          href="https://goo.gl/maps/QauwFqoaa1qmuNKg8"
         >
           <span className="">Google Maps</span>
         </a>
       </div>
     </>
-  )
+  );
 }

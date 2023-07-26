@@ -1,12 +1,12 @@
-import comeHereImg from '../assets/come-here.svg'
+import comeHereImg from "../assets/come-here.svg";
 
-import { Countdown } from '../components/Countdown'
+import { Countdown } from "../components/Countdown";
 
-import { Programacao } from '../components/Programacao'
-import { Patrocinadores } from '../components/Patrocinadores'
-import { LocalEvento } from '../components/LocalEvento'
-import { FAQ } from '../components/FAQ'
-import { Contatos } from '../components/Contatos'
+import { Programacao } from "../components/Programacao";
+import { Patrocinadores } from "../components/Patrocinadores";
+import { LocalEvento } from "../components/LocalEvento";
+import { FAQ } from "../components/FAQ";
+import { Contatos } from "../components/Contatos";
 
 export function Landing() {
   return (
@@ -24,7 +24,7 @@ export function Landing() {
           <span className="text-2xl text-red-500">#PythonNorte2023</span>
 
           <p className="max-w-lg text-base leading-relaxed">
-            A PyNorte 2023 nasceu com a tarefa de promover o máximo de
+            A Python Norte 2023 nasceu com a tarefa de promover o máximo de
             diversidade e inclusão durante os 02 dias/Outubro do evento.
             Inscreva-se, para participar desse momento sobre tecnologia e
             pessoas.
@@ -45,22 +45,20 @@ export function Landing() {
       </div>
 
       <div className="mt-32">
-        <h2 className="text-4xl font-bold">Sobre a PyNorte</h2>
+        <h2 className="text-4xl font-bold">Sobre a Python Norte</h2>
         <p className="mt-6 text-lg leading-loose">
-          A PyNorte 2023 nasceu com a tarefa de promover o máximo de diversidade
-          e inclusão durante os três dias do evento. Nossa organização, durante
-          todo o processo de criação do evento (desde a escolha da equipe
-          organizadora, definição do local, esquema de palestras, convites de
-          keynotes) se preocupou ao máximo com a entrega de uma PyN onde
-          realmente fosse possível promover a conexão entre pessoas muito além
-          da entrega de conhecimentos em tecnologia. Temos muito orgulho em
-          dizer a todas as pessoas que a PyNE22 é uma edição da comunidade, para
-          a comunidade, pois, somos uma edição 100% pautada em pluralidade,
-          diversidade, respeito e inclusão.
+          Nossa organização, durante todo o processo de criação do evento (desde
+          a escolha da equipe organizadora, definição do local, esquema de
+          palestras, convites de keynotes) se preocupou ao máximo com a entrega
+          de uma PyN onde realmente fosse possível promover a conexão entre
+          pessoas muito além da entrega de conhecimentos em tecnologia. Temos
+          muito orgulho em dizer a todas as pessoas que a PyNE22 é uma edição da
+          comunidade, para a comunidade, pois, somos uma edição 100% pautada em
+          pluralidade, diversidade, respeito e inclusão.
         </p>
       </div>
 
-      {/* Programação */}
+      {/* Programação - DESABILITADO POR ENQUANTO */}
       <div className="mt-32">
         <Programacao />
       </div>
@@ -85,5 +83,5 @@ export function Landing() {
         <Contatos />
       </div>
     </div>
-  )
+  );
 }

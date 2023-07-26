@@ -4,26 +4,52 @@ import { RiArrowRightSLine, RiArrowDownSLine } from 'react-icons/ri'
 export function FAQ() {
   const faq = [
     {
-      pergunta: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+      pergunta: 'O que é a Python Norte 2023?',
       resposta:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
+        'Python Norte 2023 é o maior evento sobre a linguagem de programação Python da região Norte. É suportado por diversos eventos locais e regionais, culminando em um encontro amigável e itinerante dentro da região Norte.',
     },
     {
-      pergunta: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+      pergunta: 'O evento será presencial ou on-line?',
       resposta:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
+        'A Python Norte 2023 será realizado na modalidade presencial, sem a possibilidade de transmissão ao vivo da programação.',
     },
     {
-      pergunta: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+      pergunta: 'Preciso estar vacinado contra febre amarela?',
       resposta:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
+        'Segundo a Secretaria Municipal de Saúde (Semsa Manaus), a Região Amazônica é endêmica para Febre Amarela, por isso, o turista deverá ser vacinado contra esta doença com pelo menos 10 dias de antecedência da viagem. Mais informações aqui GUIA DE SAÚDE PARA O TURISTA - SEMSA',
     },
     {
-      pergunta: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+      pergunta: 'Preciso estar vacinado para participar do evento?',
       resposta:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Orci a scelerisque purus semper eget duis at tellus at. Volutpat odio facilisis mauris sit amet massa. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nibh cras pulvinar mattis nunc sed. Lobortis feugiat vivamus at augue. Dictum non consectetur a erat nam at lectus. Sit amet nisl suscipit adipiscing bibendum est. Massa id neque aliquam vestibulum. Eget dolor morbi non arcu risus.',
+        'De acordo com a OMS, a pandemia foi declarada finalizada no dia 05 de Maio de 2023. No entanto, reforçamos a importância de manter o cartão de vacinação atualizado pelo fato do evento ser presencial.',
     },
-  ]
+    {
+      pergunta: 'Onde e quando será realizado o Python Norte 2023?',
+      resposta:
+        'O evento irá ocorrer presencialmente na cidade de Manaus, no Amazonas, nos dias 29 e 30 de Setembro de 2023, na UNINORTE UNIDADE DJALMA BATISTA.',
+    },
+    {
+      pergunta: 'Qual a programação do evento?',
+      resposta:
+        'A programação do evento estará disponível nas redes sociais assim que possível. Acompanhe-nos.',
+    },
+    {
+      pergunta: 'O evento é apenas em português?',
+      resposta:
+        'A priori sim, pois não houve nenhum tipo de demanda de outras linguagens até o momento.',
+    },
+    {
+      pergunta: 'O que é Job Fair?',
+      resposta:
+        'Job Fair é uma feira de empregos, onde as empresas mostram como e onde elas atuam, além de conversar sobre vagas e o que esperam de quem submete.',
+    },
+    {
+      pergunta: 'Como participar do Job Fair?',
+      resposta:
+        'Basta conferir o horário da empresa que você deseja participar e participar da apresentação na sala específica de Job Fair.',
+    },
+]
+
 
   const [openIndexes, setOpenIndexes] = useState<number[]>([0])
 
