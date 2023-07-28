@@ -4,7 +4,7 @@ export function CodigoConduta() {
       <div className="my-8">
         <h2 className="text-4xl font-bold">Código de Conduta</h2>
         <p className="mt-6 text-lg leading-loose">
-          O evento Python Brasil é um ambiente amistoso, de boa convivência,
+          O evento Python Norte é um ambiente amistoso, de boa convivência,
           inclusivo e livre de intimidação, onde todas as pessoas são bem-vindas
           e a civilidade é exigida.
         </p>
