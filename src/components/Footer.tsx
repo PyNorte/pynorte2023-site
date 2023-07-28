@@ -43,7 +43,7 @@ export function Footer() {
             <a
               target="_blank"
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
-              href="#"
+              href="https://www.sympla.com.br/python-norte-2023__2069918"
             >
               Inscreva-se
             </a>

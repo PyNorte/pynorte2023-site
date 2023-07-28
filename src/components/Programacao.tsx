@@ -8,20 +8,20 @@ export function Programacao() {
   // Altere as informações abaixo
   const infos = [
     {
-      alt: 'Keynotes | Palestras',
-      text: 'Keynotes | Palestras',
+      alt: 'Palestras',
+      text: 'Palestras: A maior parte das palestras ministradas são escolhidas pelas pessoas que compõem a comunidade. Essas abordam temáticas nas mais diversificadas áreas de conhecimento com uso da linguagem Python.',
+    },
+    {
+      alt: 'Keynotes',
+      text: 'Keynotes: São pessoas de destaque convidadas para se apresentarem e exporem suas ideias no evento, assim como tendências para o futuro da linguagem Python com o intuito de alavancar o crescimento tecnológico regional.',
     },
     {
       alt: 'Palestras Relâmpago',
-      text: 'Palestras Relâmpago',
-    },
-    {
-      alt: 'JobFair',
-      text: 'JobFair',
+      text: 'Keynotes: Fugindo do modelo tradicional, ,objetivas e espontâneas dos participantes. Uma ótima oportunidade para incentivar o diálogo e compartilhar as experiências entre pessoas da comunidade.',
     },
     {
       alt: 'Tutoriais',
-      text: 'Tutoriais',
+      text: 'Tutoriais: São minicursos em diversos formatos que abordam o Python e tecnologias relacionadas, nos quais, quem participa pode desenvolver novas habilidades, colocando em prática o aprendizado adquirido.',
     },
   ]
 

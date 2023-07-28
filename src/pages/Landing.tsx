@@ -31,8 +31,9 @@ export function Landing() {
           </p>
 
           <a
+            target="_blank"
             className="rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-12 md:py-4 md:text-base"
-            href="#"
+            href="https://www.sympla.com.br/python-norte-2023__2069918"
           >
             Inscreva-se
           </a>

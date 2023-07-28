@@ -5,6 +5,7 @@ import { useMediaQuery } from 'react-responsive'
 import { Disclosure } from '@headlessui/react'
 import { BiMenu } from 'react-icons/bi'
 import { CgClose } from 'react-icons/cg'
+import { Link } from 'react-router-dom'
 import brandImg from '../assets/brand.svg'
 
 export function Header() {
@@ -48,20 +49,20 @@ export function Header() {
           <nav>
             <ul className="flex space-x-8 text-white md:space-x-16 lg:space-x-24">
               <li>
-                <a href="/preview" className="hover:text-gray-300">
+                <Link to="/preview" className="hover:text-gray-300">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/cdc" className="hover:text-gray-300">
+                <Link to="/cdc" className="hover:text-gray-300">
                   Código de Conduta
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="/preview#faq" className="hover:text-gray-300">
+              {/* <li>
+                <Link to="/preview#faq" className="hover:text-gray-300">
                   FAQ
-                </a>
-              </li>
+                </Link>
+              </li> */}
             </ul>
           </nav>
         )}
@@ -71,20 +72,20 @@ export function Header() {
         <Disclosure.Panel className="mt-8 w-full sm:hidden">
           <ul className="flex flex-col space-y-4 text-white">
             <li>
-              <a href="/preview" className="hover:text-gray-300">
+              <Link to="/preview" className="hover:text-gray-300">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/cdc" className="hover:text-gray-300">
+              <Link to="/cdc" className="hover:text-gray-300">
                 Código de Conduta
-              </a>
+              </Link>
             </li>
-            <li>
-              <a href="#faq" className="hover:text-gray-300">
+            {/* <li>
+              <Link to="/preview#faq" className="hover:text-gray-300">
                 FAQ
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </Disclosure.Panel>
       )}
