@@ -9,10 +9,10 @@ import { Maintenance } from "./pages/Maintenance";
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Maintenance />} />
+      {/* <Route path="/" element={<Maintenance />} /> */}
 
       <Route path="/" element={<DefaultLayout />}>
-        <Route path="/preview" element={<Landing />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/cdc" element={<CodigoConduta />} />
       </Route>
 
