@@ -68,7 +68,7 @@ export function Patrocinadores() {
           target="_blank"
           rel="noreferrer"
           className="text-md inline-block w-full rounded-full bg-green-600 px-28 py-4 font-bold text-zinc-800 transition-colors hover:bg-green-500 md:inline-block md:w-auto"
-          href="https://drive.google.com/file/d/12OvS9k6Lkc77ZiWDiCjgJ9lO_LOCNtb-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VYom1rmasaF7T0cbKnCZ0lBmBfAdx4rt/view?pli=1"
         >
           <span>Seja um Patrocinador</span>
         </a>
