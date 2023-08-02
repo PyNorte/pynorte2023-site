@@ -20,7 +20,7 @@ export function Programacao() {
     {
       alt: "Palestras Relâmpago",
       title: "Palestras Relâmpago: ",
-      text: "Fugindo do modelo tradicional, ,objetivas e espontâneas dos participantes. Uma ótima oportunidade para incentivar o diálogo e compartilhar as experiências entre pessoas da comunidade.",
+      text: "Fugindo do modelo tradicional, As PR são apresentações curtas, objetivas e espontâneas dos participantes. Uma ótima oportunidade para incentivar o diálogo e compartilhar as experiências entre pessoas da comunidade.",
     },
     {
       alt: "Tutoriais",

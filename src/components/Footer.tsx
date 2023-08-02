@@ -52,7 +52,7 @@ export function Footer() {
             <a
               target="_blank"
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
-              href="https://drive.google.com/file/d/12OvS9k6Lkc77ZiWDiCjgJ9lO_LOCNtb-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VYom1rmasaF7T0cbKnCZ0lBmBfAdx4rt/view?usp=sharing"
             >
               Seja um Patrocinador
             </a>
