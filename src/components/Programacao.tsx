@@ -50,7 +50,7 @@ export function Programacao() {
         ))}
       </div>
 
-      <div className="mt-12 space-y-4 text-center md:space-x-8 md:space-y-0">
+      <div className="mt-12 space-y-4 text-center md:space-x-8">
         <a
           target="_blank"
           className="text-md inline-block w-full rounded-full bg-green-600 px-28 py-4 font-bold text-zinc-800 transition-colors hover:bg-green-500 md:inline-block md:w-auto"
