@@ -9,7 +9,7 @@ export function Footer() {
         <img className="h-10 md:h-16" src={brandImg} alt="Python Norte 2023" />
 
         <p className="max-w-md text-sm text-zinc-600 md:text-base">
-          Python Brasil é uma conferência sem fins lucrativos dirigida por
+          Python Norte é uma conferência sem fins lucrativos dirigida por
           voluntários para promover a linguagem de programação Python de código
           aberto. É apoiado pela Associação Python Brasil (APyB).
         </p>

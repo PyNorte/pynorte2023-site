@@ -25,7 +25,7 @@ export function Landing() {
 
           <p className="max-w-lg text-base leading-relaxed">
             A Python Norte 2023 nasceu com a tarefa de promover o máximo de
-            diversidade e inclusão durante os 02 dias/Outubro do evento.
+            diversidade e inclusão durante os 02 dias do evento em setembro.
             Inscreva-se, para participar desse momento sobre tecnologia e
             pessoas.
           </p>
@@ -53,7 +53,7 @@ export function Landing() {
           palestras, convites de keynotes) se preocupou ao máximo com a entrega
           de uma PyN onde realmente fosse possível promover a conexão entre
           pessoas muito além da entrega de conhecimentos em tecnologia. Temos
-          muito orgulho em dizer a todas as pessoas que a PyNE22 é uma edição da
+          muito orgulho em dizer a todas as pessoas que a PyN23 é uma edição da
           comunidade, para a comunidade, pois, somos uma edição 100% pautada em
           pluralidade, diversidade, respeito e inclusão.
         </p>
