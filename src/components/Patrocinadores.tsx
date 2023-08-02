@@ -16,7 +16,8 @@ export function Patrocinadores() {
   return (
     <>
       <h2 className="mb-6 text-4xl font-bold">Patrocinadores</h2>
-      <div className=" grid gap-16 text-lg leading-loose md:grid-cols-3">
+      {/* <div className=" grid gap-16 text-lg leading-loose md:grid-cols-3"> */}
+      <div className=" grid gap-16 text-lg leading-loose md:grid-cols">
         {/* Ouro */}
         {/* <div className="flex flex-col items-center justify-start">
           <span className="text-md mb-4 rounded-full bg-custom-gold px-6 py-2 font-semibold text-black">
@@ -68,7 +69,7 @@ export function Patrocinadores() {
           target="_blank"
           rel="noreferrer"
           className="text-md inline-block w-full rounded-full bg-green-600 px-28 py-4 font-bold text-zinc-800 transition-colors hover:bg-green-500 md:inline-block md:w-auto"
-          href="https://drive.google.com/file/d/12OvS9k6Lkc77ZiWDiCjgJ9lO_LOCNtb-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VYom1rmasaF7T0cbKnCZ0lBmBfAdx4rt/view?pli=1"
         >
           <span>Seja um Patrocinador</span>
         </a>
