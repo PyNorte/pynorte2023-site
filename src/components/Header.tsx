@@ -49,7 +49,7 @@ export function Header() {
           <nav>
             <ul className="flex space-x-8 text-white md:space-x-16 lg:space-x-24">
               <li>
-                <Link to="/preview" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Home
                 </Link>
               </li>
@@ -58,11 +58,7 @@ export function Header() {
                   Código de Conduta
                 </Link>
               </li>
-              {/* <li>
-                <Link to="/preview#faq" className="hover:text-gray-300">
-                  FAQ
-                </Link>
-              </li> */}
+              
             </ul>
           </nav>
         )}
@@ -72,7 +68,7 @@ export function Header() {
         <Disclosure.Panel className="mt-8 w-full sm:hidden">
           <ul className="flex flex-col space-y-4 text-white">
             <li>
-              <Link to="/preview" className="hover:text-gray-300">
+              <Link to="/" className="hover:text-gray-300">
                 Home
               </Link>
             </li>
@@ -81,11 +77,7 @@ export function Header() {
                 Código de Conduta
               </Link>
             </li>
-            {/* <li>
-              <Link to="/preview#faq" className="hover:text-gray-300">
-                FAQ
-              </Link>
-            </li> */}
+            
           </ul>
         </Disclosure.Panel>
       )}
