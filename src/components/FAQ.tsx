@@ -91,7 +91,7 @@ export function FAQ() {
             }`}
           >
             <div
-              className={`flex flex-grow items-center justify-center gap-32 bg-zinc-900/70 p-6 leading-loose backdrop-blur-sm ${
+              className={`flex flex-grow items-center gap-32 bg-zinc-900/70 p-6 leading-loose backdrop-blur-sm ${
                 index === faq.length - 1 ? 'rounded-b-lg' : ''
               }`}
             >
