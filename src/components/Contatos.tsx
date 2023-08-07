@@ -1,4 +1,4 @@
-import { GrTwitter, GrInstagram } from 'react-icons/gr'
+import { GrTwitter, GrInstagram, GrFacebook, GrLinkedin } from 'react-icons/gr'
 
 export function Contatos() {
   return (
@@ -24,6 +24,25 @@ export function Contatos() {
           >
             <GrInstagram />
           </a>
+
+          <a
+            className="text-4xl"
+            href="https://www.facebook.com/pynorte"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrFacebook />
+          </a>
+
+          <a
+            className="text-4xl"
+            href="https://www.linkedin.com/company/pynorte/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrLinkedin/>
+          </a>
+          
         </section>
       </div>
 

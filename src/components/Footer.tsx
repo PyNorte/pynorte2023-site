@@ -1,4 +1,4 @@
-import { GrTwitter, GrInstagram } from "react-icons/gr";
+import { GrTwitter, GrInstagram, GrFacebook, GrLinkedin } from "react-icons/gr";
 
 import brandImg from "../assets/brand.svg";
 
@@ -31,6 +31,25 @@ export function Footer() {
             rel="noreferrer"
           >
             <GrInstagram />
+          </a>
+
+          <a
+            className="text-2xl"
+            href="https://www.facebook.com/pynorte"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrFacebook />
+          </a>
+
+
+          <a
+            className="text-2xl"
+            href="https://www.linkedin.com/company/pynorte/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrLinkedin/>
           </a>
         </section>
       </div>
