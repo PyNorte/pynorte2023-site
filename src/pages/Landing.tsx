@@ -7,6 +7,7 @@ import { Patrocinadores } from "../components/Patrocinadores";
 import { LocalEvento } from "../components/LocalEvento";
 import { FAQ } from "../components/FAQ";
 import { Contatos } from "../components/Contatos";
+import { SubmissaoDeAtividades } from "../components/SubmissaoDeAtividades";
 
 export function Landing() {
   return (
@@ -43,6 +44,11 @@ export function Landing() {
         <div className="mb-16 hidden lg:block">
           <Countdown />
         </div>
+      </div>
+    
+      {/* Submissão de Atividades */}
+      <div className="mt-32">
+        <SubmissaoDeAtividades />
       </div>
 
       <div className="mt-32">
