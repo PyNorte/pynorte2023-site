@@ -8,10 +8,15 @@ import thumbnail2 from "../assets/patrocinadores/patrocinadores2.png";
 import thumbnail3 from "../assets/patrocinadores/patrocinadores3.png";
 import thumbnail4 from "../assets/patrocinadores/patrocinadores4.png";
 
+//apoio
+import uninorte from "../assets/patrocinadores/apoio/uninorte.png";
+
+
 export function Patrocinadores() {
   // const ouro = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   // const prata = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   const bronze = [vinta];
+  const apoio = [uninorte]
 
   return (
     <>
@@ -62,6 +67,22 @@ export function Patrocinadores() {
             />
           ))}
         </div>
+
+        {/* Apoio */}
+        <div className="flex flex-col items-center justify-start">
+          <span className="text-md mb-4 rounded-full bg-custom-silver px-6 py-2 font-semibold text-black">
+            APOIO
+          </span>
+          {apoio.map((thumbnail, index) => (
+            <img
+              key={index}
+              src={thumbnail}
+              alt="APOIO"
+              className="mb-4 max-h-32 w-64"
+            />
+          ))}
+        </div>
+
       </div>
 
       <div className="mt-12 text-center">
