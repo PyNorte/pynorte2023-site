@@ -9,10 +9,50 @@ export function FAQ() {
         'Python Norte 2023 é o maior evento sobre a linguagem de programação Python da região Norte. É suportado por diversos eventos locais e regionais, culminando em um encontro amigável e itinerante dentro da região Norte.',
     },
     {
+      pergunta: 'A Python Norte 2023 é paga?',
+      resposta:
+        'Sim, para participar do evento é necessário adquirir o ingresso. Com a compra do seu ingresso você terá acesso aos 2 dias de imersão de Python. Os ingressos estarão disponíveis no Sympla a partir do dia 21/08/23',
+    },
+    {
+      pergunta: 'Ganho certificado por participar da Python Norte 2023?',
+      resposta:
+        'Sim! Ao participar da Python Norte você receberá no seu email um certificado de participação do evento.',
+    },
+    {
+      pergunta: 'Onde e quando será realizado o Python Norte 2023?',
+      resposta:
+        'O evento irá ocorrer presencialmente na cidade de Manaus, no Amazonas, nos dias 29 e 30 de Setembro de 2023, na UNINORTE UNIDADE DJALMA BATISTA.',
+    },
+    {
       pergunta: 'O evento será presencial ou on-line?',
       resposta:
         'A Python Norte 2023 será realizado na modalidade presencial, sem a possibilidade de transmissão ao vivo da programação.',
     },
+    {
+      pergunta: 'Qual a programação do evento?',
+      resposta:
+        'A programação do evento estará disponível nas redes sociais assim que possível. Acompanhe-nos.',
+    },
+    {
+      pergunta: 'O que é a submissão de palestras?',
+      resposta:
+        'A submissão de palestras é para quem quer ser palestrante na Python Norte, quem gostaria apenas assistir as palestras não precisa submeter nada, apenas adquirir o ingresso.',
+    },
+    //{
+    //  pergunta: 'O evento é apenas em português?',
+    //  resposta:
+    //    'A priori sim, pois não houve nenhum tipo de demanda de outras linguagens até o momento.',
+    //},
+    {
+      pergunta: 'O que é Job Fair?',
+      resposta:
+        'Job Fair é uma feira de empregos, onde as empresas mostram como e onde elas atuam, além de conversar sobre vagas e o que esperam de quem submete.',
+    },
+    //{
+    //  pergunta: 'Como participar do Job Fair?',
+    //  resposta:
+    //    'Basta conferir o horário da empresa que você deseja participar e participar da apresentação na sala específica de Job Fair.',
+    //},
     {
       pergunta: 'Preciso estar vacinado contra febre amarela?',
       resposta:
@@ -22,31 +62,6 @@ export function FAQ() {
       pergunta: 'Preciso estar vacinado para participar do evento?',
       resposta:
         'De acordo com a OMS, a pandemia foi declarada finalizada no dia 05 de Maio de 2023. No entanto, reforçamos a importância de manter o cartão de vacinação atualizado pelo fato do evento ser presencial.',
-    },
-    {
-      pergunta: 'Onde e quando será realizado o Python Norte 2023?',
-      resposta:
-        'O evento irá ocorrer presencialmente na cidade de Manaus, no Amazonas, nos dias 29 e 30 de Setembro de 2023, na UNINORTE UNIDADE DJALMA BATISTA.',
-    },
-    {
-      pergunta: 'Qual a programação do evento?',
-      resposta:
-        'A programação do evento estará disponível nas redes sociais assim que possível. Acompanhe-nos.',
-    },
-    {
-      pergunta: 'O evento é apenas em português?',
-      resposta:
-        'A priori sim, pois não houve nenhum tipo de demanda de outras linguagens até o momento.',
-    },
-    {
-      pergunta: 'O que é Job Fair?',
-      resposta:
-        'Job Fair é uma feira de empregos, onde as empresas mostram como e onde elas atuam, além de conversar sobre vagas e o que esperam de quem submete.',
-    },
-    {
-      pergunta: 'Como participar do Job Fair?',
-      resposta:
-        'Basta conferir o horário da empresa que você deseja participar e participar da apresentação na sala específica de Job Fair.',
     },
 ]
 

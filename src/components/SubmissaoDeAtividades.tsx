@@ -3,12 +3,12 @@ export function SubmissaoDeAtividades() {
   // Altere as informações abaixo
   <div className="flex flex-col items-start gap-1">
     <h2 className="text-4xl font-bold">Submissão de atividades</h2>
-    <p className="mt- text-lg leading-loose"> Tem interesse em palestrar na Python Norte 2023? Está aberta a submissão de atividades pela comunidade! </p>
-    <p className="mt-6 text-base leading-loose "> <b>Palestras:</b> Apresentações teóricas de 40 (quarenta) minutos que serão realizadas no auditório ou salas específicas para a atividade. </p>
-    <p className="mt-6 text-base leading-loose"> <b>Tutoriais:</b> apresentações com teoria e prática com duração de 90(noventa) minutos e 
+    <p className="mt-6 text-lg leading-loose"> Tem interesse em palestrar na Python Norte 2023? Está aberta a submissão de atividades pela comunidade! </p>
+    <p className="mt-2 text-base leading-loose "> <b>Palestras:</b> Apresentações teóricas de 40 (quarenta) minutos que serão realizadas no auditório ou salas específicas para a atividade. </p>
+    <p className="mt-2 text-base leading-loose"> <b>Tutoriais:</b> apresentações com teoria e prática com duração de 90(noventa) minutos e 
     tem como objetivo o crescimento da comunidade, promovendo aprendizado para pessoas com diferentes níveis de experiência em programação, 
     Python, entre outras áreas.</p>
-    <p className="mt-6 text-base"> <b>Observações:</b></p>
+    <p className="mt-2 text-base"> <b>Observações:</b></p>
     <p className="mt-0 text-base"> - Submissões de atividades abertas até 20/08/2023.</p>
     <p className="mt-0 text-base"> - Não é necessário enviar a apresentação completa no formulário de submissões, apenas um resumo sobre o conteúdo.</p>
     <p className="mt-6 text-base"> Mais informações no link de inscrição abaixo </p>
