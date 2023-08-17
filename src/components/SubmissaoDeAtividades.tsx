@@ -8,7 +8,11 @@ export function SubmissaoDeAtividades() {
     <p className="mt-6 text-base leading-loose"> <b>Tutoriais:</b> apresentações com teoria e prática com duração de 90(noventa) minutos e 
     tem como objetivo o crescimento da comunidade, promovendo aprendizado para pessoas com diferentes níveis de experiência em programação, 
     Python, entre outras áreas.</p>
+    <p className="mt-6 text-base"> <b>Observações:</b></p>
+    <p className="mt-0 text-base"> - Submissões de atividades abertas até 31/08/2023.</p>
+    <p className="mt-0 text-base"> - Não é necessário enviar a apresentação completa no formulário de submissões, apenas um resumo sobre o conteúdo.</p>
     <p className="mt-6 text-base"> Mais informações no link de inscrição abaixo </p>
+
         <a 
         target="_blank"
         className="mt-2 rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-12 md:py-4 md:text-base"
