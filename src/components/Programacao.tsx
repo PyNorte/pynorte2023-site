@@ -29,6 +29,13 @@ export function Programacao() {
     },
   ];
 
+  const titleColors = [
+    "#8D31B5", // Cor para o título 1
+    "#2AAE2A", // Cor para o título 2
+    "#FFED00", // Cor para o título 3
+    "#DD4A50", // Cor para o título 4
+  ];
+
   const thumbnails = [thumbnail1, thumbnail2, thumbnail3, thumbnail4];
 
   return (
@@ -43,7 +50,7 @@ export function Programacao() {
             <img src={thumbnails[index]} alt={info.alt} className="h-32 w-32" />
 
             <p className="max-w-xs">
-              <b>{info.title}</b>
+              <b style={{ color: titleColors[index] }}>{info.title}</b>
               {info.text}
             </p>
           </div>
