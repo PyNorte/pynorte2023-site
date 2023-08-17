@@ -45,7 +45,12 @@ export function Landing() {
           <Countdown />
         </div>
       </div>
-    
+
+      {/* Countdown Mobile*/}
+      <div className="mt-20 block lg:hidden">
+        <Countdown />
+      </div>
+
       {/* Submissão de Atividades */}
       <div className="mt-32">
         <SubmissaoDeAtividades />
