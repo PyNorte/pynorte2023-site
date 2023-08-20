@@ -64,7 +64,7 @@ export function Footer() {
               className="max-w-md text-sm text-zinc-600 hover:text-zinc-400 md:text-base"
               href="https://www.sympla.com.br/python-norte-2023__2069918"
             >
-              Inscreva-se
+              Adquira seu ingresso
             </a>
           </li>
           <li>
