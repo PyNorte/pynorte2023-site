@@ -38,6 +38,11 @@ export function FAQ() {
       resposta:
         'A submissão de palestras é para quem quer ser palestrante na Python Norte, quem gostaria apenas assistir as palestras não precisa submeter nada, apenas adquirir o ingresso.',
     },
+    {
+      pergunta: 'Quem submeteu uma palestra precisa comprar ingresso?',
+      resposta:
+        'Sim, quem fez a submissão de palestra também precisa comprar o ingresso. Os palestrantes aprovados irão receber 25% de desconto no valor do ingresso. O Cupom de desconto estará no mesmo email da confirmação da palestra aprovada.',
+    },
     //{
     //  pergunta: 'O evento é apenas em português?',
     //  resposta:
