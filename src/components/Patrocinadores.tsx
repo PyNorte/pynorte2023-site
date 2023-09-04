@@ -10,13 +10,14 @@ import thumbnail4 from "../assets/patrocinadores/patrocinadores4.png";
 
 //apoio
 import uninorte from "../assets/patrocinadores/apoio/uninorte.png";
+import novatec from "../assets/patrocinadores/apoio/logo-novatec.png";
 
 
 export function Patrocinadores() {
   // const ouro = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   // const prata = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   const bronze = [vinta];
-  const apoio = [uninorte]
+  const apoio = [uninorte,novatec]
 
   return (
     <>
