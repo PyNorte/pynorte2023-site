@@ -9,7 +9,7 @@ export function SubmissaoDeAtividades() {
     tem como objetivo o crescimento da comunidade, promovendo aprendizado para pessoas com diferentes níveis de experiência em programação, 
     Python, entre outras áreas.</p>
     <p className="mt-2 text-base"> <b>Observações:</b></p>
-    <p className="mt-0 text-base"> - Submissões de atividades abertas até 31/08/2023.</p>
+    <p className="mt-0 text-base"> - Submissões de atividades abertas até 10/09/2023.</p>
     <p className="mt-0 text-base"> - Não é necessário enviar a apresentação completa no formulário de submissões, apenas um resumo sobre o conteúdo.</p>
     <p className="mt-0 text-base"> - Palestrantes aprovados irão receber 25% de desconto no valor do ingresso.</p>
     <p className="mt-6 text-base"> Mais informações no link de inscrição abaixo </p>
