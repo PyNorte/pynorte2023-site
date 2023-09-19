@@ -12,6 +12,7 @@ import thumbnail4 from "../assets/patrocinadores/patrocinadores4.png";
 import uninorte from "../assets/patrocinadores/apoio/uninorte.png";
 import novatec from "../assets/patrocinadores/apoio/logo-novatec.png";
 import ancora from "../assets/patrocinadores/apoio/Encora - Logo.png";
+import eldorado from "../assets/patrocinadores/ouro/Logo_Eldorado.png";
 
 
 export function Patrocinadores() {
@@ -19,14 +20,17 @@ export function Patrocinadores() {
   // const prata = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   const bronze = [vinta];
   const apoio = [uninorte,novatec,ancora]
+  const ouro = [eldorado]
 
   return (
     <>
       <h2 className="mb-6 text-4xl font-bold">Patrocinadores</h2>
-      {/* <div className=" grid gap-16 text-lg leading-loose md:grid-cols-3"> */}
       <div className=" grid gap-16 text-lg leading-loose md:grid-cols">
+
+
+    
         {/* Ouro */}
-        {/* <div className="flex flex-col items-center justify-start">
+        <div className="flex flex-col items-center justify-start">
           <span className="text-md mb-4 rounded-full bg-custom-gold px-6 py-2 font-semibold text-black">
             OURO
           </span>
@@ -34,13 +38,13 @@ export function Patrocinadores() {
             <img
               key={index}
               src={thumbnail}
-              alt="Patrocinador Ouro"
-              className="mb-4 h-32 w-32"
+              alt="Patrocinador ouro"
+              className="mb-4 max-h-32 w-64"
             />
           ))}
-        </div> */}
+        </div>
 
-        {/* Prata */}
+                {/* Prata */}
         {/* <div className="flex flex-col items-center justify-start">
           <span className="text-md mb-4 rounded-full bg-custom-silver px-6 py-2 font-semibold text-black">
             PRATA
