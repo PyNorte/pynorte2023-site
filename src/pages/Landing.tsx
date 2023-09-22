@@ -3,6 +3,7 @@ import comeHereImg from "../assets/come-here.svg";
 import { Countdown } from "../components/Countdown";
 
 import { Programacao } from "../components/Programacao";
+import { Keynotes } from "../components/Keynotes";
 import { Patrocinadores } from "../components/Patrocinadores";
 import { LocalEvento } from "../components/LocalEvento";
 import { FAQ } from "../components/FAQ";
@@ -70,7 +71,12 @@ export function Landing() {
         </p>
       </div>
 
-      {/* Programação - DESABILITADO POR ENQUANTO */}
+      {/* Keynotes */}
+      <div className="mt-32">
+        <Keynotes />
+      </div>
+
+      {/* Programação */}
       <div className="mt-32">
         <Programacao />
       </div>
