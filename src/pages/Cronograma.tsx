@@ -1,8 +1,12 @@
 import React, { useState, ChangeEvent } from "react";
 import { Tab, Tabs, Box, Typography, Dialog, Card, CardContent } from "@mui/material";
 
-import dia1 from "../assets/cronograma/dia1.png";
-import dia2 from "../assets/cronograma/dia2.png";
+import PalestraDia1 from "../assets/cronograma/dia1Palestra.png";
+import TutorialDia1 from "../assets/cronograma/Dia1Tutoriais.png";
+
+import PalestraDia2 from "../assets/cronograma/palestradia2.png";
+import TutorialDia2 from "../assets/cronograma/tutoriaisdia2.png";
+
 
 export function Cronograma() {
   const [value, setValue] = useState(0);
@@ -37,11 +41,21 @@ export function Cronograma() {
               <Tab label="DIA 1 (29 de Setembro - Sexta)" style={{ color: 'white' }} />
               <Tab label="DIA 2 (30 de Setembro - Sábado)" style={{ color: 'white' }} />
             </Tabs>
+             {/* Palestra dia 1 */}
             <TabPanel value={value} index={0}>
-              <img src={dia1} alt="Dia 1" onClick={() => handleImageClick(dia1)} style={{ cursor: 'pointer' }} />
+              <img src={PalestraDia1} alt="Dia 1" onClick={() => handleImageClick(PalestraDia1)} style={{ cursor: 'pointer' }} />
             </TabPanel>
+              {/* Tutorial dia 1 */}
+            <TabPanel value={value} index={0}>
+              <img src={TutorialDia1} alt="Dia 1" onClick={() => handleImageClick(TutorialDia1)} style={{ cursor: 'pointer' }} />
+            </TabPanel>
+              {/* Palestra dia 2 */}
             <TabPanel value={value} index={1}>
-              <img src={dia2} alt="Dia 2" onClick={() => handleImageClick(dia2)} style={{ cursor: 'pointer' }} />
+              <img src={PalestraDia2} alt="Dia 2" onClick={() => handleImageClick(PalestraDia2)} style={{ cursor: 'pointer' }} />
+            </TabPanel>
+                {/* Tutorial dia 2 */}
+            <TabPanel value={value} index={1}>
+              <img src={TutorialDia2} alt="Dia 2" onClick={() => handleImageClick(TutorialDia2)} style={{ cursor: 'pointer' }} />
             </TabPanel>
           </Box>
         </div>
