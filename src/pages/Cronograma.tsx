@@ -1,11 +1,11 @@
 import React, { useState, ChangeEvent } from "react";
 import { Tab, Tabs, Box, Typography, Dialog, Card, CardContent } from "@mui/material";
 
-import PalestraDia1 from "../assets/cronograma/dia1Palestra.png";
-import TutorialDia1 from "../assets/cronograma/Dia1Tutoriais.png";
+import PalestraDia1 from "../assets/cronograma/dia1Palestra.jpg";
+import TutorialDia1 from "../assets/cronograma/Dia1Tutoriais.jpg";
 
-import PalestraDia2 from "../assets/cronograma/palestradia2.png";
-import TutorialDia2 from "../assets/cronograma/tutoriaisdia2.png";
+import PalestraDia2 from "../assets/cronograma/palestradia2.jpg";
+import TutorialDia2 from "../assets/cronograma/tutoriaisdia2.jpg";
 
 
 export function Cronograma() {
