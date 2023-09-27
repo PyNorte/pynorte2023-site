@@ -1,7 +1,7 @@
 // Troque o nome pelo nome da imagem que você quer usar
 import thumbnail1 from "../assets/keynotes/1juliany.png";
 import thumbnail2 from "../assets/keynotes/2eliane.png";
-// import thumbnail3 from "../assets/keynotes/3.png";
+import thumbnail3 from "../assets/keynotes/elloa.png";
 // import thumbnail4 from "../assets/keynotes/4.png";
 
 export function Keynotes() {
@@ -17,6 +17,10 @@ export function Keynotes() {
       title: "Eliane Collins: ",
       text: "Possui 18 anos de experiência profissional nas áreas de engenharia de software e teste de software, atualmente é Gerente Técnica no Instituto de Desenvolvimento INDT, Co-Fundadora da startup de treinamento Testing and Play e Professora de pós-graduação na UFAM e Cesar School. É doutora em ciência da computação pela USP.",
     },
+    {
+      alt: "Elloá B. Guedes",
+      title: "Elloá B. Guedes: ",
+      text: "Doutora em Ciência da Computação e professora associada da Universidade do Estado do Amazonas desde 2013. É co-fundadora do Laboratório de Sistemas Inteligentes da instituição, que visa desenvolver algoritmos inteligentes para problemas em diversos domínios, aprendendo com dados reais. É autora de dois livros técnico-científicos, sendo um deles publicado internacionalmente, e de mais de 50 artigos científicos em periódicos e conferências, principalmente na área de Ciência da Computação. É uma entusiasta da programação em Python e colaborou na criação do grupo PyLadies Manaus.",}
   ];
 
   const titleColors = [
@@ -26,20 +30,20 @@ export function Keynotes() {
     "#2AAE2A", // Cor para o título 4
   ];
 
-  const thumbnails = [thumbnail1, thumbnail2];
+  const thumbnails = [thumbnail1, thumbnail2,thumbnail3];
 
   return (
     <>
       <h2 className="mb-6 text-4xl font-bold">Keynotes</h2>
-      <div className="grid gap-16 text-lg leading-loose lg:grid-cols-2">
+      <div className="flex grid gap-16 text-lg leading-loose lg:grid-cols-1">
         {infos.map((info, index) => (
           <div
             key={index}
-            className="flex flex-col items-center gap-8 space-x-4 lg:flex-row"
+            className="flex flex-col flex-center justify-center gap-8 space-x-4 lg:flex-row"
           >
-            <img src={thumbnails[index]} alt={info.alt} className="h-32 w-32" />
+            <img src={thumbnails[index]} alt={info.alt} className="h-40 w-40" />
 
-            <p className="max-w-xs">
+            <p className="text-justify">
               <b style={{ color: titleColors[index] }}>{info.title}</b>
               {info.text}
             </p>
