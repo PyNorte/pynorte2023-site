@@ -2,7 +2,7 @@
 import thumbnail1 from "../assets/keynotes/1juliany.png";
 import thumbnail2 from "../assets/keynotes/2eliane.png";
 import thumbnail3 from "../assets/keynotes/elloa.png";
-// import thumbnail4 from "../assets/keynotes/4.png";
+import thumbnail4 from "../assets/keynotes/jessica.png";
 
 export function Keynotes() {
   // Altere as informações abaixo
@@ -20,8 +20,14 @@ export function Keynotes() {
     {
       alt: "Elloá B. Guedes",
       title: "Elloá B. Guedes: ",
-      text: "Doutora em Ciência da Computação e professora associada da Universidade do Estado do Amazonas desde 2013. É co-fundadora do Laboratório de Sistemas Inteligentes da instituição, que visa desenvolver algoritmos inteligentes para problemas em diversos domínios, aprendendo com dados reais. É autora de dois livros técnico-científicos, sendo um deles publicado internacionalmente, e de mais de 50 artigos científicos em periódicos e conferências, principalmente na área de Ciência da Computação. É uma entusiasta da programação em Python e colaborou na criação do grupo PyLadies Manaus.",}
-  ];
+      text: "Doutora em Ciência da Computação e professora associada da Universidade do Estado do Amazonas desde 2013. É co-fundadora do Laboratório de Sistemas Inteligentes da instituição, que visa desenvolver algoritmos inteligentes para problemas em diversos domínios, aprendendo com dados reais. É autora de dois livros técnico-científicos, sendo um deles publicado internacionalmente, e de mais de 50 artigos científicos em periódicos e conferências, principalmente na área de Ciência da Computação. É uma entusiasta da programação em Python e colaborou na criação do grupo PyLadies Manaus."
+      },
+    {
+      alt: "Jéssica Oliveira",
+      title: "Jéssica Oliveira: ",
+      text:"A Professora Jéssica Oliveira é uma líder proeminente no campo da Tecnologia e Educação, ocupando o cargo de Coordenadora dos cursos de Tecnologia na Uninorte. Sua jornada acadêmica é marcada por diversas pós-graduações, incluindo Engenharia de Software, Gestão de Projetos e Governança em TI, refletindo seu comprometimento com a excelência nessas áreas essenciais. Com um Mestrado em Tecnologia da Informação, ela continua a aprimorar seu conhecimento e está atualmente envolvida em um doutorado em Educação, consolidando sua experiência na interseção entre tecnologia e aprendizado. "
+      ,}
+      ];
 
   const titleColors = [
     "#2AAE2A", // Cor para o título 1
@@ -30,7 +36,7 @@ export function Keynotes() {
     "#2AAE2A", // Cor para o título 4
   ];
 
-  const thumbnails = [thumbnail1, thumbnail2,thumbnail3];
+  const thumbnails = [thumbnail1, thumbnail2,thumbnail3,thumbnail4];
 
   return (
     <>
