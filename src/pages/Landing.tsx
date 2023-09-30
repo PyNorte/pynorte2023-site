@@ -1,6 +1,6 @@
 import comeHereImg from "../assets/come-here.svg";
 
-import { Countdown } from "../components/Countdown";
+//import { Countdown } from "../components/Countdown";
 
 import { Programacao } from "../components/Programacao";
 import { Keynotes } from "../components/Keynotes";
@@ -37,19 +37,15 @@ export function Landing() {
             className="rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px-12 md:py-4 md:text-base"
             href="https://www.sympla.com.br/python-norte-2023__2069918"
           >
-            Adquira seu ingresso
+            Ingressos esgotados!
           </a>
         </div>
 
         {/* Countdown */}
-        <div className="mb-16 hidden lg:block">
-          <Countdown />
-        </div>
+       
       </div>
       {/* Countdown Mobile*/}
-      <div className="mt-20 block lg:hidden">
-        <Countdown />
-      </div>
+
 
       <div className="mt-32">
         <h2 className="text-4xl font-bold">Sobre a Python Norte</h2>
