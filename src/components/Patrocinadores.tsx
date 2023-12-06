@@ -13,6 +13,7 @@ import uninorte from "../assets/patrocinadores/apoio/uninorte.png";
 import novatec from "../assets/patrocinadores/apoio/logo-novatec.png";
 import ancora from "../assets/patrocinadores/apoio/Encora - Logo.png";
 import eldorado from "../assets/patrocinadores/ouro/Logo_Eldorado.png";
+import psf from "../assets/patrocinadores/ouro/PSF-Logo.png";
 
 
 export function Patrocinadores() {
@@ -20,7 +21,7 @@ export function Patrocinadores() {
   // const prata = [thumbnail1, thumbnail2, thumbnail3, thumbnail4]
   const bronze = [vinta];
   const apoio = [uninorte,novatec,ancora]
-  const ouro = [eldorado]
+  const ouro = [eldorado,psf]
 
   return (
     <>
