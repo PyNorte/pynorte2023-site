@@ -49,7 +49,7 @@ export function Landing() {
 
       <div className="mt-32">
         <h2 className="text-4xl font-bold">Sobre a Python Norte</h2>
-        <p className="mt-6 text-lg leading-loose">
+        <p className="mt-6 mb-8 text-lg leading-loose">
           Nossa organização, durante todo o processo de criação do evento (desde
           a escolha da equipe organizadora, definição do local, esquema de
           palestras, convites de keynotes) se preocupou ao máximo com a entrega
@@ -59,6 +59,14 @@ export function Landing() {
           comunidade, para a comunidade, pois, somos uma edição 100% pautada em
           pluralidade, diversidade, respeito e inclusão.
         </p>
+      
+        <a
+            target="_blank"
+            className="rounded-full bg-green-600 px-8 py-3 text-sm font-bold text-zinc-800 transition-colors hover:bg-green-500 md:px- md:py-4 md:text-base"
+            href="https://flic.kr/ps/4357GL"
+          >
+            Fotos da Python Norte 2023
+          </a>
       </div>
 
       {/* Keynotes */}
